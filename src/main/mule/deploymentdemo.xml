@@ -17,7 +17,8 @@ output application/json
 ---
 {
 	"user": attributes.queryParams.user,
-	"Score": randomInt(100)
+	"Score": randomInt(100),
+        "message": "git added"
 	
 	}]]></ee:set-payload>
 			</ee:message>
